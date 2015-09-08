@@ -7,8 +7,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <%= render :partial => "_partials/header"%>
+  <%= render :partial => "_partials/menu"%>
+  <%= yield %>
+  <%= render :partial => "_partials/footer"%>  
 </body>
 </html>
