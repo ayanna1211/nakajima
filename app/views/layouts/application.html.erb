@@ -8,8 +8,10 @@
 </head>
 <body>
   <%= render :partial => "_partials/header"%>
+  <div class="wrapper">
+    <%= yield %>
+  </div>
   <%= render :partial => "_partials/menu"%>
-  <%= yield %>
   <%= render :partial => "_partials/footer"%>  
 </body>
 </html>

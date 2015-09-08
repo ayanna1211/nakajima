@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 header {
-  height: 200px;
+  height: 140px;
   position: relative;
   box-shadow: 0px -5px 10px rgba(0,0,0,0.15) inset;
 }
@@ -15,17 +15,63 @@ header {
 }
 
 header h1 {
-  padding-top: 19px;
+  padding-top:19px;
   font-weight: normal;
   font-size:12px;
   color: #F7F7F7;
   float:left;
+  margin-right:25px;
 }
   
 header a:hover {
   opacity: 0.6;
 }
 
+.text_header {
+  margin-top: 45px;
+  font-size: 14px;
+  float: left;
+  margin-left: 10px;
+  color: #00bfff;
+}
+
 .info_header {
   float: right;
+  width:280px;
+  margin-top:20px;
+}
+.phone {
+  padding:6px 0 6px 75px;
+  margin-bottom:5px;
+  text-align:left;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px rgba(255,255,255,1);
+  background: url(../img/icon_phones.png) 15px 0px no-repeat;
+}
+
+.phone a {
+  font-family:Arial, Helvetica, sans-serif;
+  color: #666;
+  text-decoration:none;
+}
+
+.phone a:hover {
+  color:#0065b0;
+}
+
+.text_info {
+  padding: 8px 15px 7px !important;
+  text-align: center;
+  background:#0099cc;
+  margin-bottom:10px;
+}
+
+.text_info .item {
+  font-size:12px;
+  margin-bottom:7px;
+  color:#fff;
+}
+
+.shadow2  {
+  border-radius: 15px;
 }
