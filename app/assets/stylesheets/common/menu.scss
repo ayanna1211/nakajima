@@ -1,0 +1,30 @@
+// Place all the styles related to the top controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.col_right {
+  float: right;
+}
+
+.nav_top {} 
+
+.nav_top .item {
+  margin-bottom: 15px;
+}
+
+.nav_top .item a:hover,
+.nav_top .item a.active {
+  background: url(../img/nav2.png) 10px 50% no-repeat #32ccff;
+}
+
+.nav_top .item a {
+  display: block;
+  background: url(../img/nav.png) 10px 50% no-repeat #005f7f;
+  color: #fff;
+  font-size: 1.25em;
+  text-shadow: -1px -1px 1px rgba(0,0,0,0.3);
+  padding: 20px 10px 20px 33px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  text-decoration:none;
+}
