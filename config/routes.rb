@@ -1,10 +1,13 @@
 Rails.application.routes.draw do
   
   
+  
   resources :microposts
   resources :users
+  
   get '/index', to: 'top#index'
   get '/users', to: 'users#index'  
+  get '/introduce', to: 'introduction_pages#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

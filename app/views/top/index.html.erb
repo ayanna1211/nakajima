@@ -1,6 +1,17 @@
-<h2>Welcome to my website</h2>
-<div>
-  This is my website.<br>
-  Now, It hasn't content.<br>
-  Sorry!
-</div>
+<% provide(:title, "Welcome to my blog") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %></title>
+  </head>
+  <body>
+    <h2>Welcome to my website</h2>
+    <div>
+      This is my website.<br>
+      Go to <a href="/users">here</a>.
+    </div>
+
+  </body>
+</html>
+
+
